@@ -1,12 +1,11 @@
 ### Hi there, I'm [BessCroft!](https://52bess.com) 👋
 
-<br />
 你好，我是BessCroft，来自中国，我的家乡在荆州。😄
 <br />
 我热爱编程，正在自学编程中，期望能成为一名Java开发人员！⚡
 <br />
 
-- 🔭我正在开发SpringBoot项目
+- 🔭 我正在开发SpringBoot项目
 - 🌱 我正在学习SpringBoot，以及之后的分布式相关的技术
 - 👯 我在寻找志同道合的朋友
 - 💬 通过邮件联系我：besscroft@foxmail.com
