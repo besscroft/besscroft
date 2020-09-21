@@ -7,8 +7,8 @@
 我热爱编程，正在自学编程中，期望能成为一名Java开发人员！⚡
 <br />
 
-- 🔭 我正在开发SpringBoot项目
-- 🌱 我正在学习SpringBoot，以及之后的分布式相关的技术
+- 🔭 我正在开发SpringCloud项目
+- 🌱 我正在学习SpringCloud，以及微服务相关的技术
 - 👯 我在寻找志同道合的朋友
 - 💬 通过邮件联系我：besscroft@foxmail.com
 - ⚡ 我正在努力学习中
