@@ -4,14 +4,13 @@
 <br />
 你好，我是BessCroft，来自中国，我的家乡在荆州。😄
 <br />
-我热爱编程，正在自学编程中，期望能成为一名Java开发人员！⚡
+我热爱编程，一直在自学编程中，是一名Java开发人员！⚡
 <br />
 
-- 🔭 我正在开发SpringCloud项目
-- 🌱 我正在学习SpringCloud，以及微服务相关的技术
+- 🔭 我正在开发SpringBoot项目，TODO：AuroraDrive、AuroraPanel
+- 🌱 我正在努力的学习，我一定会变强的💪
 - 👯 我在寻找志同道合的朋友
 - 💬 通过邮件联系我：besscroft@foxmail.com
-- ⚡ 我正在努力学习中
 
 <!--
 **besscroft/besscroft** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
