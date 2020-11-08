@@ -8,6 +8,7 @@
 <br />
 
 - 🔭 我正在开发SpringBoot项目，TODO：AuroraDrive、AuroraPanel
+- 🤔 我正在学习Spring Cloud Alibaba
 - 🌱 我正在努力的学习，我一定会变强的💪
 - 👯 我在寻找志同道合的朋友
 - 💬 通过邮件联系我：besscroft@foxmail.com
