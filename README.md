@@ -7,8 +7,8 @@
 我热爱编程，一直在自学编程中，是一名Java开发人员！⚡
 <br />
 
-- 🔭 我正在开发SpringBoot项目，TODO：AuroraDrive、AuroraPanel
-- 🤔 我正在学习Spring Cloud Alibaba
+- 🔭 我正在开发SpringBoot项目，TODO：暂无，把精力更多地放到学习和工作中了。
+- 🤔 我正在学习Spring Cloud Alibaba，以及深入学习Spring、MyBatis、Redis和MySQL。
 - 🌱 我正在努力的学习，我一定会变强的💪
 - 👯 我在寻找志同道合的朋友
 - 💬 通过邮件联系我：besscroft@foxmail.com
