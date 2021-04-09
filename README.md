@@ -16,7 +16,7 @@
   <a href="https://linkedin.com/in/bess-croft-ba94bb145/"><img src="https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
-<h3 align="center">Languages and Tools</h3>
+### Languages and Tools
 <p align=center>
   <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
     <img height=175 align="center" src="https://github-readme-stats.vercel.app/api?username=besscroft&show_icons=true&theme=radical">
@@ -26,7 +26,7 @@
   </a>
 </p>
 
-<h3 align="center">我的开源项目</h3>
-<p width="100%" align="center">
-  <a  href="https://github.com/besscroft/aurora-mall" title="Algorithms"><img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=aurora-mall&theme=gotham"></a><a  href="https://github.com/besscroft/HP-OMEN-3-Hackintosh" title="Data Structures"><img  height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=HP-OMEN-3-Hackintosh&theme=gotham"></a>
-</p>
+### 我的开源项目
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=aurora-mall)](https://github.com/besscroft/aurora-mall)[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=HP-OMEN-3-Hackintosh)](https://github.com/besscroft/HP-OMEN-3-Hackintosh)
+
