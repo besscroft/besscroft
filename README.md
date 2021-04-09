@@ -28,5 +28,5 @@
 
 <h3 align="center">我的开源项目</h3>
 <p width="100%" align="center">
-  <a align="left" href="https://github.com/besscroft/aurora-mall" title="Algorithms"><img align="left" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=aurora-mall&theme=gotham"></a><a align="right" href="https://github.com/besscroft/HP-OMEN-3-Hackintosh" title="Data Structures"><img align="right" height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=HP-OMEN-3-Hackintosh&theme=gotham"></a>
+  <a  href="https://github.com/besscroft/aurora-mall" title="Algorithms"><img height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=aurora-mall&theme=gotham"></a><a  href="https://github.com/besscroft/HP-OMEN-3-Hackintosh" title="Data Structures"><img  height="115" src="https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=HP-OMEN-3-Hackintosh&theme=gotham"></a>
 </p>
