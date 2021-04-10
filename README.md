@@ -23,6 +23,12 @@
 </p>
 
 ### 我的开源项目
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=aurora-mall)](https://github.com/besscroft/aurora-mall)[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=HP-OMEN-3-Hackintosh)](https://github.com/besscroft/HP-OMEN-3-Hackintosh)
+<p align=center>
+<a href="https://github.com/besscroft/aurora-mall">
+  <img height=150 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=aurora-mall" />
+  </a>
+  <a href="https://github.com/besscroft/HP-OMEN-3-Hackintosh">
+  <img height=150 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=HP-OMEN-3-Hackintosh" />
+  </a>
+</p>
 
