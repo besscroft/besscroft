@@ -18,15 +18,17 @@
 
 ### Languages and Tools
 <p align=center>
-  <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
     <img height=175 align="center" src="https://github-readme-stats.vercel.app/api?username=besscroft&show_icons=true&theme=radical">
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=175 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=besscroft&hide=c%23,powershell,java&title_color=2aa889&text_color=99d1ce&icon_color=2bbc8a&bg_color=0c1014&langs_count=8&layout=compact" />
-  </a>
 </p>
 
 ### 我的开源项目
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=aurora-mall)](https://github.com/besscroft/aurora-mall)[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=HP-OMEN-3-Hackintosh)](https://github.com/besscroft/HP-OMEN-3-Hackintosh)
+<p align=center>
+<a href="https://github.com/besscroft/aurora-mall">
+  <img height=150 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=aurora-mall" />
+  </a>
+  <a href="https://github.com/besscroft/HP-OMEN-3-Hackintosh">
+  <img height=150 align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=besscroft&repo=HP-OMEN-3-Hackintosh" />
+  </a>
+</p>
 
