@@ -1,4 +1,4 @@
-### Hi there, I'm [BessCroft!](https://52bess.com) 👋
+### Hi there, I'm [BessCroft!](https://besscroft.com) 👋
 
 ![](https://komarev.com/ghpvc/?username=besscroft&style=flat-square&color=ff69b4)
 <br />
