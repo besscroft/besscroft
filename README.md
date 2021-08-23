@@ -5,8 +5,9 @@
 你好，我是BessCroft😄我热爱编程，一直在自学编程中，是一名Java开发人员！⚡
 <br />
 
-- 🔭 我正在开发SpringCloud项目，TODO：[极光商城开发](https://mall.doc.besscroft.com/)，同时精力更多地放到学习和工作中了。
-- 🤔 我正在学习Spring Cloud Alibaba，以及深入学习Spring、MyBatis、Redis和MySQL。
+- 🔭 我正在开发自己的一些项目，同时精力更多地放到学习和工作中了。
+- 🤔 我正在学习Spring Cloud Alibaba 和 Netty，以及深入学习Spring、MyBatis、Redis和MySQL。
+- 😋我平常喜欢读书、看计算机公开课，以及写作和听歌。
 - 🌱 我正在努力的学习，我一定会变强的💪
 - 👯 我在寻找志同道合的朋友
 
