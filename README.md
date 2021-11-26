@@ -1,12 +1,13 @@
 ### <div align="center">Hi, I'm [BessCroft](https://besscroft.com) , a full-time full-stack developer 👨‍💻</div>
 
 ![](https://komarev.com/ghpvc/?username=besscroft&style=flat-square&color=ff69b4)
+
 <br />
 你好，我是BessCroft😄我热爱编程，一直在自学编程中，是一名Java开发人员！⚡
 <br />
 
 - 🔭 我正在开发自己的一些项目，同时精力更多地放到学习和工作中了。
-- - 🤔 我正在学习Spring Cloud Alibaba 和 Python，以及深入学习Spring、MyBatis、Redis和MySQL。
+- 🤔 我正在学习Spring Cloud Alibaba 和 Python，以及深入学习Spring、MyBatis、Redis和MySQL。
 - 😋 我平常喜欢读书、看计算机公开课，以及写作和听歌，以及游戏！
 - 🌱 我正在努力的学习，我一定会变强的💪
 
