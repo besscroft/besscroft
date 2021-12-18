@@ -6,7 +6,7 @@ I'm [BessCroft](https://besscroft.com) , a full-time full-stack developer 👨�
 
 ## 💬 Worked language for me
 
-- ✅ ⁠ ⁢⁣⁡⁠ ⁢⁣⁡ Java
+- ✅ ⁠ ⁢⁣⁡⁠ ⁢⁣⁡Java
 - ✅ ⁠ ⁢⁣⁡⁠ ⁢⁣⁡Python / JavaScript
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=besscroft&layout=compact"/>
