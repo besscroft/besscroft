@@ -1,3 +1,5 @@
+<img align="center" src="https://ae02.alicdn.com/kf/H1b0a459d948f4a339b91c55a1e0d1e59a.png" />
+
 ## 👋 Hey!
 
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=besscroft&show_icons=true&icon_color=0366d6&text_color=24292e&bg_color=ffffff&hide_title=true" />
