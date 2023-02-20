@@ -14,5 +14,4 @@ I'm [Bess Croft](https://besscroft.com) , a full-time full-stack developer 👨�
 ## 📮 How to reach me
 
 - <img src="./icons/mail.svg"> [Email](mailto:besscroft@foxmail.com)
-- <img src="./icons/twitter.svg"> [Twitter](https://twitter.com/besscroft)
 - <img src="./icons/article.svg"> [Blog](https://besscroft.com)
