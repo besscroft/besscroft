@@ -11,7 +11,7 @@ I'm [Bess Croft](https://besscroft.com) , a full-time full-stack developer 👨�
 
 <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=besscroft&layout=compact"/>
 
-## 📮 How to reach me
+## 📮 contact me
 
 - <img src="./icons/mail.svg"> [Email](mailto:besscroft@foxmail.com)
 - <img src="./icons/article.svg"> [Blog](https://besscroft.com)
