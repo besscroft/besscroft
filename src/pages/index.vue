@@ -15,7 +15,7 @@ defineOptions({
       </a>
     </p>
     <p>
-      <em text-sm op75 class="font-serif">只要不失去你的崇高，整个世界都会为你敞开！</em>
+      <em text-sm op75 class="font-serif">上学时看《神话》，有 50 集；毕业后看《神话》，只有 8 集。</em>
     </p>
 
     <div py-4 />
