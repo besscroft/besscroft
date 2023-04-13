@@ -8,21 +8,24 @@ defineOptions({
 
 <template>
   <div class="mt-20">
-    <div class="m-auto w-40"><img class="rounded-full" src="https://besscroft.com/uploads/avatar.jpeg" alt="Bess Croft"></div>
+    <div class="m-auto w-40">
+      <img class="rounded-full" src="https://besscroft.com/uploads/avatar.jpeg" alt="Bess Croft">
+    </div>
     <p class="m-2">
       <a rel="noreferrer" class="font-serif text-3xl" href="https://github.com/besscroft" target="_blank">
         Bess Croft
       </a>
     </p>
     <p>
-      <em text-sm op75 class="font-serif">上学时看《神话》，有 50 集；毕业后看《神话》，只有 8 集。</em>
+      <em text-sm op75 class="font-serif">谁也没有见过风<br>更别说我和你了<br>谁也没有见过爱情<br>直到有花束抛向自己</em>
     </p>
 
     <div py-4 />
     <div>
       <a
         class="inline-block rounded-full bg-gradient-to-r p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
-        target="blank" href="https://github.com/besscroft">
+        target="blank" href="https://github.com/besscroft"
+      >
         <img src="https://img.shields.io/badge/GitHub-Follow-brightgreen?style=flat-square" alt="GitHub">
       </a>
     </div>
