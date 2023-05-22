@@ -4,6 +4,8 @@
 
 I'm [Bess Croft](https://besscroft.com) , a full-time full-stack developer 👨‍💻
 
+[![wakatime](https://wakatime.com/badge/user/ed85fdbe-1020-4a72-97fd-9a6a63122be3.svg)](https://wakatime.com/@ed85fdbe-1020-4a72-97fd-9a6a63122be3)
+
 ## 💬 Worked language for me
 
 - ✅ ⁠ ⁢⁣⁡⁠ ⁢⁣⁡Java / Python
