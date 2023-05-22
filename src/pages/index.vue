@@ -17,16 +17,21 @@ defineOptions({
       </a>
     </p>
     <p>
-      <em text-sm op75 class="font-serif">谁也没有见过风<br>更别说我和你了<br>谁也没有见过爱情<br>直到有花束抛向自己</em>
+      <em text-sm op75 class="font-serif">谁也没有见过风 更别说我和你了<br>谁也没有见过爱情 直到有花束抛向自己</em>
     </p>
 
     <div py-4 />
-    <div>
+    <div class="flex flex-col space-y-2">
       <a
-        class="inline-block rounded-full bg-gradient-to-r p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+        class="mxa"
         target="blank" href="https://github.com/besscroft"
       >
         <img src="https://img.shields.io/badge/GitHub-Follow-brightgreen?style=flat-square" alt="GitHub">
+      </a>
+      <a
+        class="mxa"
+        href="https://wakatime.com/@ed85fdbe-1020-4a72-97fd-9a6a63122be3">
+        <img src="https://wakatime.com/badge/user/ed85fdbe-1020-4a72-97fd-9a6a63122be3.svg" alt="Total time coded since Jun 18 2022">
       </a>
     </div>
     <div class="mt-4">
