@@ -13,7 +13,7 @@ defineOptions({
     </div>
     <p class="m-2">
       <a rel="noreferrer" class="font-serif text-3xl" href="https://github.com/besscroft" target="_blank">
-        Bess Croft
+        云淑
       </a>
     </p>
     <p>
