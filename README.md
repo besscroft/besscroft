@@ -1,17 +1,3 @@
-## 👋 Hey!
+写代码是找不到女朋友的，MD，跟 Java 拼了😡👊！
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=besscroft&show_icons=true&icon_color=0366d6&text_color=24292e&bg_color=ffffff&hide_title=true" />
-
-I'm [Bess Croft](https://besscroft.com) , a full-time full-stack developer 👨‍💻
-
-[![wakatime](https://wakatime.com/badge/user/ed85fdbe-1020-4a72-97fd-9a6a63122be3.svg)](https://wakatime.com/@ed85fdbe-1020-4a72-97fd-9a6a63122be3)
-
-## 💬 Worked language for me
-
-- ✅ ⁠ ⁢⁣⁡⁠ ⁢⁣⁡Java / Python
-- ✅ ⁠ ⁢⁣⁡⁠ ⁢⁣⁡TypeScript / JavaScript
-
-## 📮 contact me
-
-- <img src="./icons/mail.svg"> [Email](mailto:besscroft@foxmail.com)
-- <img src="./icons/article.svg"> [Blog](https://besscroft.com)
+原神，启动！
