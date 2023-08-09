@@ -17,7 +17,7 @@ defineOptions({
       </a>
     </p>
     <p>
-      <em text-sm op75 class="font-serif">为天地立心、为生民立命<br>为往圣继绝学、为万事开太平</em>
+      <em text-sm op75 class="font-serif">为天地立心、为生民立命<br>为往圣继绝学、为万世开太平</em>
     </p>
 
     <div py-4 />
