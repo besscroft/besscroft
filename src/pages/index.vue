@@ -27,7 +27,7 @@ const { t } = useI18n()
     </div>
     <div class="mt-8">
       <button flex items-center justify-center w-20 h-8 of-hidden rounded-3xl border-dashed hover:border-solid border border-gray-400>
-        <a href="https://github.com/besscroft/enstudy" target="_blank" flex justify-center items-center>
+        <a href="https://blog.besscroft.com" target="_blank" flex justify-center items-center>
           <span>博客</span>
         </a>
       </button>
