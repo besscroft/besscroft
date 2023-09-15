@@ -1,14 +1,14 @@
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
+
 <template>
   <div>
-    <!-- 404 page content -->
+    {{ t('not-found') }}
   </div>
 </template>
-<script setup lang="ts">
-onMounted(() => {
-  // 404 page script
-  let nav = document.createElement('script')
-  nav.type = 'text/javascript'
-  nav.src = '//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js'
-  document.body.appendChild(nav)
-})
-</script>
+
+<route lang="yaml">
+meta:
+  layout: 404
+</route>
