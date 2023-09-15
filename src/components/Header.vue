@@ -4,15 +4,15 @@ const router = useRouter()
 
 <template>
   <div h-24 w-full flex items-center justify-center space-x-4 z-10>
-    <div cursor-pointer i="carbon-home" @click="router.push('/')" />
-    <a href="https://blog.besscroft.com" target="_blank">
+    <div cursor-pointer i="carbon-home" @click="router.push('/')" title="主页" />
+    <a href="https://blog.besscroft.com" target="_blank" title="博客">
       <div i="carbon-blog" />
     </a>
-    <div cursor-pointer i="carbon-bot" @click="router.push('/about')" />
-    <a href="https://github.com/besscroft" target="_blank">
+    <div cursor-pointer i="carbon-bot" @click="router.push('/about')" title="关于" />
+    <a href="https://github.com/besscroft" target="_blank" title="GitHub">
       <div i="carbon-logo-github" />
     </a>
-    <a href="https://blog.besscroft.com/rss.xml" target="_blank">
+    <a href="https://blog.besscroft.com/rss.xml" target="_blank" title="RSS">
       <div i="carbon-rss" />
     </a>
     <DarkToggle />
