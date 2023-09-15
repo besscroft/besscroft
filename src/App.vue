@@ -15,7 +15,7 @@ useHead({
     {
       rel: 'icon',
       type: 'image/svg+xml',
-      href: 'public/assets/img/black-cat.png',
+      href: 'assets/img/black-cat.png',
     },
   ],
 })

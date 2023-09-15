@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const bgStyle = computed(() => {
   return {
-    backgroundImage: `url('${isDark.value ? '' : 'public/assets/img/hero.jpg'}')`,
+    backgroundImage: `url('${isDark.value ? '' : 'assets/img/hero.jpg'}')`,
   }
 })
 </script>
