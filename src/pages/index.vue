@@ -5,7 +5,7 @@ const { t } = useI18n()
 <template>
   <div flex flex-col items-center justify-center mt-20>
     <div m-auto w-40 h-46>
-      <img rounded-full src="https://besscroft.com/uploads/avatar.jpeg" alt="Bess Croft">
+      <img rounded-full src="https://besscroft.com/uploads/avatar.jpg" alt="Bess Croft">
     </div>
     <p m-2 h-8 text-2xl>
       云淑
