@@ -1,39 +1,27 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "module": "ESNext",
-    "target": "ESNext",
-    "lib": ["DOM", "ESNext"],
-    "strict": true,
-    "esModuleInterop": true,
-    "jsx": "preserve",
-    "skipLibCheck": true,
-    "isolatedModules": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "strictNullChecks": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
-    "types": [
-      "vitest",
-      "vite/client",
-      "vue/ref-macros",
-      "vite-plugin-pages/client",
-      "vite-plugin-vue-component-preview/client",
-      "vite-plugin-vue-layouts/client",
-      "vite-plugin-pwa/client",
-      "unplugin-vue-macros/macros-global"
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
     ],
     "paths": {
-      "~/*": ["src/*"]
+      "@/*": ["./*"]
     }
   },
-  "vueCompilerOptions": {
-    "plugins": [
-      "@vue-macros/volar/define-models",
-      "@vue-macros/volar/define-slots"
-    ]
-  },
-  "exclude": ["dist", "node_modules", "cypress"]
+  "include": [
+    "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }
