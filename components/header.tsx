@@ -25,10 +25,10 @@ export default function Header() {
             <NavbarBrand>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-                    className="sm:hidden dark:text-white"
+                    className="sm:hidden dark:text-white select-none"
                 />
             </NavbarBrand>
-            <NavbarContent className="hidden sm:flex gap-4" justify="center">
+            <NavbarContent className="hidden sm:flex gap-4 select-none" justify="center">
                 <NavbarItem>
                     <Link color="foreground" href="/">
                         首页

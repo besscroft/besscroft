@@ -26,6 +26,7 @@ export default function About() {
                         isExternal
                         href="https://book.besscroft.com"
                         showAnchorIcon
+                        className="select-none"
                     >
                         书单
                     </Link>
@@ -33,6 +34,7 @@ export default function About() {
                         isExternal
                         href="https://space.bilibili.com/278038021"
                         showAnchorIcon
+                        className="select-none"
                     >
                         哔哩哔哩
                     </Link>
@@ -40,6 +42,7 @@ export default function About() {
                         isExternal
                         href="https://heming.dev"
                         showAnchorIcon
+                        className="select-none"
                     >
                         鹤鸣工作室
                     </Link>

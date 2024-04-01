@@ -11,7 +11,7 @@ export default function Email() {
         <Card
             isFooterBlurred
             radius="lg"
-            className="border-none"
+            className="border-none select-none"
         >
             <Image
                 alt="Woman listing to music"
