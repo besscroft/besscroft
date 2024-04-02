@@ -6,13 +6,7 @@
 
 你可以...访问我的[博客](https://besscroft.com)，访问我的[哔哩哔哩](https://space.bilibili.com/278038021)。
 
-### GPG 公钥
-
-密钥指纹信息如下：
-
-```
-ed25519/0x908B888888888888 (主密钥)
-ed25519/0x4C3CFFFFFFFFFFFF (S/签名子密钥)
-cv25519/0xAE6359AAAAAAAAAA (ER/加密子密钥)
-ed25519/0xB0B1E88888888888 (SA/认证子密钥)
-```
+- ⚡ Java / TypeScript / Python / Go. Nuxt.js / Next.js / Serverless. DevOps / Kubernetes.
+- 🔑 GPG key hosted here at [GitHub](https://github.com/besscroft.gpg), see [Keybase proof](https://gist.github.com/besscroft/bb753c43203728b06b749a4a91798d59).
+- 🥤 Genshin Impact 原神（天空岛）UID 157476877 (/≧▽≦)/
+- 💰Support my work on [爱发电](https://afdian.net/@besscroft)！
