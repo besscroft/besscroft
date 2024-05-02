@@ -37,7 +37,7 @@ export default function Header() {
                 <NavbarItem>
                     <Link
                         color="foreground"
-                        href="https://kamera.heming.dev/"
+                        href="https://pic.besscroft.com"
                         isExternal
                     >
                         旅行足迹
