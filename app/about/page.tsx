@@ -20,8 +20,8 @@ export default function About() {
                 <CardBody>
                     <p>Java Developer、野生 Gopher、Pythonista，TypeScript 真香！</p>
                     <p>I’m Bess Croft , a full-time full-stack developer 👨‍💻</p>
-                    <p>我是云淑，在湖北武汉工作，<del>是一名全栈开发工程师</del>，转行了。</p>
-                    <p>我喜欢编程，这是我的兴趣爱好之一，我希望能够通过编程，创造一些有意思的东西。</p>
+                    <p>我是云淑，在湖北武汉工作，是一名全栈开发工程师。</p>
+                    <p>我喜欢编程，这是我的兴趣爱好之一，我希望能够通过编程，帮助他人和创造一些有意思的东西。</p>
                     <Link
                         isExternal
                         href="https://book.besscroft.com"
@@ -37,14 +37,6 @@ export default function About() {
                         className="select-none"
                     >
                         哔哩哔哩
-                    </Link>
-                    <Link
-                        isExternal
-                        href="https://heming.dev"
-                        showAnchorIcon
-                        className="select-none"
-                    >
-                        鹤鸣工作室
                     </Link>
                 </CardBody>
             </Card>
