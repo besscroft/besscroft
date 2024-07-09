@@ -18,11 +18,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-Hans">
+      <head>
+        <!-- Cloudflare Web Analytics -->
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "451e213ff4e14d1c8d1ac152fdc5403a"}'></script>
+        <!-- End Cloudflare Web Analytics -->
+      </head>
       <body className="h-screen">
-        <Providers>
-          <Header />
-          {children}
-        </Providers>
+      <Providers>
+        <Header/>
+        {children}
+      </Providers>
       </body>
     </html>
   );
