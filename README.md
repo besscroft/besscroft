@@ -8,5 +8,4 @@
 
 - ⚡ Java / TypeScript / Python / Go. Nuxt.js / Next.js / Serverless. DevOps / Kubernetes.
 - 🔑 GPG key hosted here at [GitHub](https://github.com/besscroft.gpg), see [Keybase proof](https://gist.github.com/besscroft/bb753c43203728b06b749a4a91798d59).
-- 🥤 Genshin Impact 原神（天空岛）UID 157476877 (/≧▽≦)/
 - 💰Support my work on [爱发电](https://afdian.net/@besscroft)！
