@@ -7,7 +7,7 @@ export default function Home() {
           <Avatar isBordered color="secondary" src="https://besscroft.com/uploads/avatar.jpg"
                   className="w-36 h-36 text-large select-none"/>
           <p className="m-4 h-8 text-2xl dark:text-white select-none">
-              云淑
+              云心鹤鸣
           </p>
           <p className=" text-center">
               <em className="text-sm dark:text-amber-50 select-none">为天地立心、为生民立命<br/>为往圣继绝学、为万世开太平</em>
