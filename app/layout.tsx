@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
-import "@/style/globals.css";
-import { Providers } from "@/app/providers";
-import Header from "@/components/header";
+import type { Metadata } from 'next'
+import '@/style/globals.css'
+import { Providers } from '@/app/providers'
+import Header from '@/components/header'
+import { Lumiflex } from 'uvcanvas'
 
 export const metadata: Metadata = {
   title: "云心鹤鸣",
@@ -24,6 +25,9 @@ export default function RootLayout({
       <body className="h-screen">
       <Providers>
         <Header/>
+        <div className="absolute w-screen h-screen -z-50 mt-[-4rem]">
+          <Lumiflex />
+        </div>
         {children}
       </Providers>
       </body>
