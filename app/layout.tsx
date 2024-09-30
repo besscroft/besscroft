@@ -5,7 +5,7 @@ import Header from '@/components/header'
 import { Lumiflex } from 'uvcanvas'
 
 export const metadata: Metadata = {
-  title: "云心鹤鸣",
+  title: "旅行者的随想",
   description: "书中自有颜如玉",
   icons: {
     icon: "/favicon.ico",
