@@ -1,4 +1,4 @@
-### Hello World!  <img src="./icons/Hi.gif" width="29px">
+### Hello World! <img src="./icons/Hi.gif" width="29px">
 
 你好，我是云芙芙，英文名是 Bess Croft，是一名全栈开发工程师，也是一名摄影爱好者。
 

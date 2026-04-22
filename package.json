@@ -15,6 +15,9 @@
     "format": "vp fmt src/"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "motion-v": "^2.2.1",
+    "tailwindcss": "^4.2.4",
     "vue": "^3.5.32",
     "vue-router": "^5.0.4"
   },
@@ -32,6 +35,7 @@
     "jiti": "^2.6.1",
     "npm-run-all2": "^8.0.4",
     "typescript": "~6.0.0",
+    "unplugin-vue-components": "^32.0.0",
     "vite": "catalog:",
     "vite-plugin-vue-devtools": "^8.1.1",
     "vite-plus": "catalog:",
