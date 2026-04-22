@@ -29,16 +29,16 @@ declare module 'vue' {
 
 // For TSX support
 declare global {
-  const CornerDecorations: (typeof import('./src/components/CornerDecorations.vue'))['default']
-  const GeometricBackground: (typeof import('./src/components/GeometricBackground.vue'))['default']
-  const HelloWorld: (typeof import('./src/components/HelloWorld.vue'))['default']
-  const IconCommunity: (typeof import('./src/components/icons/IconCommunity.vue'))['default']
-  const IconDocumentation: (typeof import('./src/components/icons/IconDocumentation.vue'))['default']
-  const IconEcosystem: (typeof import('./src/components/icons/IconEcosystem.vue'))['default']
-  const IconSupport: (typeof import('./src/components/icons/IconSupport.vue'))['default']
-  const IconTooling: (typeof import('./src/components/icons/IconTooling.vue'))['default']
-  const RouterLink: (typeof import('vue-router'))['RouterLink']
-  const RouterView: (typeof import('vue-router'))['RouterView']
-  const TheWelcome: (typeof import('./src/components/TheWelcome.vue'))['default']
-  const WelcomeItem: (typeof import('./src/components/WelcomeItem.vue'))['default']
+  const CornerDecorations: typeof import('./src/components/CornerDecorations.vue')['default']
+  const GeometricBackground: typeof import('./src/components/GeometricBackground.vue')['default']
+  const HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+  const IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
+  const IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
+  const IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
+  const IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
+  const IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
+  const RouterLink: typeof import('vue-router')['RouterLink']
+  const RouterView: typeof import('vue-router')['RouterView']
+  const TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
+  const WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
 }
