@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { Motion } from 'motion-v'
+import GeometricBackground from '../components/GeometricBackground.vue'
+import CornerDecorations from '../components/CornerDecorations.vue'
 
 const namePrefix = '旅行者'
 const nameSuffix = '的随想'
@@ -7,88 +9,11 @@ const nameSuffix = '的随想'
 
 <template>
   <div class="relative h-screen w-full bg-black flex items-center justify-center overflow-hidden">
-    <!-- 背景大三角形 -->
-    <div class="absolute inset-0 pointer-events-none">
-      <!-- 左上大三角 -->
-      <Motion
-        as="div"
-        class="absolute -top-[20%] -left-[10%] w-[60vw] h-[60vw] border border-[#D8FA00]/5"
-        style="transform: rotate(45deg)"
-        :initial="{ opacity: 0, scale: 0.8 }"
-        :animate="{ opacity: 1, scale: 1 }"
-        :transition="{ duration: 2, delay: 0.5 }"
-      />
-      <!-- 右下大三角 -->
-      <Motion
-        as="div"
-        class="absolute -bottom-[20%] -right-[10%] w-[50vw] h-[50vw] border border-[#D8FA00]/5"
-        style="transform: rotate(45deg)"
-        :initial="{ opacity: 0, scale: 0.8 }"
-        :animate="{ opacity: 1, scale: 1 }"
-        :transition="{ duration: 2, delay: 0.8 }"
-      />
-      <!-- 背景绿色光晕 -->
-      <Motion
-        as="div"
-        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#D8FA00]/[0.03] blur-[120px]"
-        :initial="{ opacity: 0 }"
-        :animate="{ opacity: 1 }"
-        :transition="{ duration: 3 }"
-      />
-      <!-- 小方块装饰 -->
-      <Motion
-        as="div"
-        class="absolute top-[18%] left-[12%] w-2 h-2 bg-[#D8FA00]/30"
-        :initial="{ opacity: 0 }"
-        :animate="{ opacity: [0.3, 0.6, 0.3] }"
-        :transition="{ duration: 3, repeat: Infinity }"
-      />
-      <Motion
-        as="div"
-        class="absolute top-[25%] right-[15%] w-1.5 h-1.5 bg-[#D8FA00]/20"
-        :initial="{ opacity: 0 }"
-        :animate="{ opacity: [0.2, 0.5, 0.2] }"
-        :transition="{ duration: 4, repeat: Infinity, delay: 1 }"
-      />
-      <Motion
-        as="div"
-        class="absolute bottom-[30%] left-[20%] w-2 h-2 bg-[#D8FA00]/25"
-        :initial="{ opacity: 0 }"
-        :animate="{ opacity: [0.25, 0.5, 0.25] }"
-        :transition="{ duration: 3.5, repeat: Infinity, delay: 0.5 }"
-      />
-      <Motion
-        as="div"
-        class="absolute bottom-[22%] right-[18%] w-1.5 h-1.5 bg-[#D8FA00]/20"
-        :initial="{ opacity: 0 }"
-        :animate="{ opacity: [0.2, 0.4, 0.2] }"
-        :transition="{ duration: 5, repeat: Infinity, delay: 2 }"
-      />
-    </div>
+    <GeometricBackground />
 
     <!-- 主内容区域 -->
     <div class="relative z-10 flex flex-col items-center text-center px-6">
-      <!-- 左上角装饰 -->
-      <Motion
-        as="div"
-        class="absolute -top-20 -left-20 sm:-top-24 sm:-left-24"
-        :initial="{ opacity: 0 }"
-        :animate="{ opacity: 1 }"
-        :transition="{ duration: 1, delay: 1.5 }"
-      >
-        <div class="w-10 h-10 border-l border-t border-[#D8FA00]/40" />
-      </Motion>
-
-      <!-- 右下角装饰 -->
-      <Motion
-        as="div"
-        class="absolute -bottom-20 -right-20 sm:-bottom-24 sm:-right-24"
-        :initial="{ opacity: 0 }"
-        :animate="{ opacity: 1 }"
-        :transition="{ duration: 1, delay: 1.7 }"
-      >
-        <div class="w-10 h-10 border-r border-b border-[#D8FA00]/40" />
-      </Motion>
+      <CornerDecorations />
 
       <!-- DEVELOPER 标签 -->
       <Motion
@@ -129,24 +54,34 @@ const nameSuffix = '的随想'
         :animate="{ opacity: 1, y: 0 }"
         :transition="{ duration: 0.8, delay: 0.8, ease: 'easeOut' }"
       >
-        <span class="text-[#D8FA00]/60 mr-2">//</span>在代码与想象之间，构建属于自己的世界
+        <span class="text-[#D8FA00]/60 mr-2">//</span>在代码与想象之间，构建属于自己的世界<span
+          class="cursor-blink inline-block w-0.5 h-[1em] bg-[#D8FA00] ml-1 align-middle"
+        />
       </Motion>
 
       <!-- 按钮组 -->
       <div class="mt-8 sm:mt-10 flex gap-3 sm:gap-4">
         <Motion
           as="a"
-          href="https://github.com"
+          href="https://github.com/besscroft"
           target="_blank"
           rel="noopener noreferrer"
-          class="px-6 sm:px-8 py-2.5 sm:py-3 bg-[#D8FA00] text-black text-xs sm:text-sm font-bold tracking-wider hover:bg-[#e0ff1a] transition-colors"
+          class="group relative overflow-hidden px-8 sm:px-10 py-3 sm:py-3.5 bg-[#D8FA00] text-black text-xs sm:text-sm font-bold tracking-wider"
           :initial="{ opacity: 0, y: 20 }"
           :animate="{ opacity: 1, y: 0 }"
           :transition="{ duration: 0.6, delay: 1.0 }"
-          :whileHover="{ scale: 1.05 }"
-          :whileTap="{ scale: 0.95 }"
+          :whileHover="{ scale: 1.08 }"
+          :whileTap="{ scale: 0.92 }"
         >
-          GITHUB
+          <!-- 扫光效果 -->
+          <div
+            class="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-500 ease-out bg-gradient-to-r from-transparent via-white/40 to-transparent skew-x-12"
+          />
+          <!-- 边框光效 -->
+          <div
+            class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-[inset_0_0_20px_rgba(216,250,0,0.5)]"
+          />
+          <span class="relative z-10">GITHUB</span>
         </Motion>
       </div>
     </div>
@@ -167,3 +102,19 @@ const nameSuffix = '的随想'
     </Motion>
   </div>
 </template>
+
+<style scoped>
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+</style>
