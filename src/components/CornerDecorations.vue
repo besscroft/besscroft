@@ -1,27 +1,10 @@
-<script setup lang="ts">
-import { Motion } from 'motion-v'
-</script>
-
 <template>
-  <!-- 左上角装饰 -->
-  <Motion
-    as="div"
-    class="absolute -top-20 -left-20 sm:-top-24 sm:-left-24"
-    :initial="{ opacity: 0 }"
-    :animate="{ opacity: 1 }"
-    :transition="{ duration: 1, delay: 1.5 }"
-  >
-    <div class="w-10 h-10 border-l border-t border-[#D8FA00]/40" />
-  </Motion>
-
-  <!-- 右下角装饰 -->
-  <Motion
-    as="div"
-    class="absolute -bottom-20 -right-20 sm:-bottom-24 sm:-right-24"
-    :initial="{ opacity: 0 }"
-    :animate="{ opacity: 1 }"
-    :transition="{ duration: 1, delay: 1.7 }"
-  >
-    <div class="w-10 h-10 border-r border-b border-[#D8FA00]/40" />
-  </Motion>
+  <div class="pointer-events-none absolute inset-0">
+    <span class="absolute left-3 top-3 h-6 w-6 border-l border-t border-[var(--color-accent)]/55" />
+    <span class="absolute right-3 top-3 h-6 w-6 border-r border-t border-white/22" />
+    <span class="absolute bottom-3 left-3 h-6 w-6 border-b border-l border-white/22" />
+    <span
+      class="absolute bottom-3 right-3 h-6 w-6 border-b border-r border-[var(--color-accent)]/55"
+    />
+  </div>
 </template>

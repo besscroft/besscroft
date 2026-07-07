@@ -3,61 +3,44 @@ import { Motion } from 'motion-v'
 </script>
 
 <template>
-  <div class="absolute inset-0 pointer-events-none">
-    <!-- 左上大三角 -->
+  <div class="pointer-events-none fixed inset-0 z-0 overflow-hidden bg-[var(--color-bg)]">
+    <div
+      class="absolute inset-0 opacity-[0.08]"
+      style="
+        background-image:
+          linear-gradient(to right, rgba(255, 255, 255, 0.72) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(255, 255, 255, 0.72) 1px, transparent 1px);
+        background-size: 96px 96px;
+      "
+    />
+    <div
+      class="absolute inset-0 opacity-[0.18]"
+      style="
+        background:
+          radial-gradient(circle at 50% 0%, rgba(216, 250, 0, 0.12), transparent 28rem),
+          linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 22rem);
+      "
+    />
     <Motion
       as="div"
-      class="absolute -top-[20%] -left-[10%] w-[60vw] h-[60vw] border border-[#D8FA00]/5"
-      style="transform: rotate(45deg)"
-      :initial="{ opacity: 0, scale: 0.8 }"
+      class="absolute left-[-12rem] top-24 h-80 w-80 rotate-45 border border-white/5"
+      :initial="{ opacity: 0, scale: 0.9 }"
       :animate="{ opacity: 1, scale: 1 }"
-      :transition="{ duration: 2, delay: 0.5 }"
+      :transition="{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }"
     />
-    <!-- 右下大三角 -->
     <Motion
       as="div"
-      class="absolute -bottom-[20%] -right-[10%] w-[50vw] h-[50vw] border border-[#D8FA00]/5"
-      style="transform: rotate(45deg)"
-      :initial="{ opacity: 0, scale: 0.8 }"
+      class="absolute bottom-[-14rem] right-[-10rem] h-96 w-96 rotate-45 border border-white/5"
+      :initial="{ opacity: 0, scale: 0.94 }"
       :animate="{ opacity: 1, scale: 1 }"
-      :transition="{ duration: 2, delay: 0.8 }"
+      :transition="{ duration: 1.2, delay: 0.08, ease: [0.16, 1, 0.3, 1] }"
     />
-    <!-- 背景绿色光晕 -->
-    <Motion
-      as="div"
-      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-[#D8FA00]/[0.03] blur-[120px]"
-      :initial="{ opacity: 0 }"
-      :animate="{ opacity: 1 }"
-      :transition="{ duration: 3 }"
-    />
-    <!-- 小方块装饰 -->
-    <Motion
-      as="div"
-      class="absolute top-[18%] left-[12%] w-2 h-2 bg-[#D8FA00]/30"
-      :initial="{ opacity: 0 }"
-      :animate="{ opacity: [0.3, 0.6, 0.3] }"
-      :transition="{ duration: 3, repeat: Infinity }"
-    />
-    <Motion
-      as="div"
-      class="absolute top-[25%] right-[15%] w-1.5 h-1.5 bg-[#D8FA00]/20"
-      :initial="{ opacity: 0 }"
-      :animate="{ opacity: [0.2, 0.5, 0.2] }"
-      :transition="{ duration: 4, repeat: Infinity, delay: 1 }"
-    />
-    <Motion
-      as="div"
-      class="absolute bottom-[30%] left-[20%] w-2 h-2 bg-[#D8FA00]/25"
-      :initial="{ opacity: 0 }"
-      :animate="{ opacity: [0.25, 0.5, 0.25] }"
-      :transition="{ duration: 3.5, repeat: Infinity, delay: 0.5 }"
-    />
-    <Motion
-      as="div"
-      class="absolute bottom-[22%] right-[18%] w-1.5 h-1.5 bg-[#D8FA00]/20"
-      :initial="{ opacity: 0 }"
-      :animate="{ opacity: [0.2, 0.4, 0.2] }"
-      :transition="{ duration: 5, repeat: Infinity, delay: 2 }"
+    <div
+      class="absolute inset-0 opacity-[0.028]"
+      style="
+        background-image: radial-gradient(circle, rgba(255, 255, 255, 0.9) 1px, transparent 1px);
+        background-size: 4px 4px;
+      "
     />
   </div>
 </template>
